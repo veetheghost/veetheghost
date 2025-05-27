@@ -1,14 +1,8 @@
 {
-  "name": "delta-sync-trading-bot",
+  "name": "trading-bot",
   "version": "1.0.0",
-  "description": "Delta Sync Trading Bot for BTCUSDT",
   "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js"
-  },
-  "dependencies": {
-    "ws": "^8.14.2"
-  },
-  "author": "Your Name",
-  "license": "MIT"
+  "scripts": { "start": "node bot.js" },
+  "dependencies": { "ws": "^8.14.2" },
+  "engines": { "node": "18.x" }
 }
